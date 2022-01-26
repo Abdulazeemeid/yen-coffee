@@ -52,12 +52,12 @@ class _AuthPageState extends State<AuthPage> {
                           padding: EdgeInsets.only(top: size.height * 0.02),
                           child: Align(
                             child: Text(
-                              'ين كافي',
-                              style: GoogleFonts.poppins(
+                              'Yen Coffee',
+                              style: GoogleFonts.tajawal(
                                 color: isDarkMode
                                     ? Colors.white
                                     : const Color(0xff1D1617),
-                                fontSize: size.height * 0.02,
+                                fontSize: size.height * 0.03,
                               ),
                             ),
                           ),
@@ -68,7 +68,7 @@ class _AuthPageState extends State<AuthPage> {
                             child: register
                                 ? Text(
                               'Create an Account',
-                              style: GoogleFonts.poppins(
+                              style: GoogleFonts.tajawal(
                                 color: isDarkMode
                                     ? Colors.white
                                     : const Color(0xff1D1617),
